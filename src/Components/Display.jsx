@@ -1,16 +1,16 @@
-import React, {useState} from 'react';
+import React from 'react';
 
-function Display(props) {
+function Display({count}) {
     // const [display,setDisplay] = useState(0);
 
     return (
         <section className="display">
-            This is the Display for the Counter.
+           <h1> {count} </h1>
         </section>
-    )
+    );
 
 
-}
+};
 
 export default Display;
 

@@ -14,14 +14,28 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: darkorchid;
   /* min-height: 100vh; */
   display: flex;
+  padding-inline: 10px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: darkturquoise;
+}
+
+Button{
+  background-color: darkorchid;
+  color: darkturquoise;
+  font-size: calc(15px + 1vmin);
+
+}
+
+h1{
+  color: darkorchid;
+  font-size: 100px;
+
 }
 
 .App-link {
